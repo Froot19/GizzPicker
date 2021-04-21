@@ -235,7 +235,7 @@ button.disabled:hover {
 <label><input type="checkbox" name="albums" class="albums" value="Gumboot"> Gumboot Soup</label></br>
 <label><input type="checkbox" name="albums" class="albums" value="FFF"> Fishing For Fishies</label></br>
 <label><input type="checkbox" name="albums" class="albums" value="ITRN"> Infest the Rats' Nest</label></br>
-<label><input type="checkbox" name="albums" class="albums" value="KG"> K.G. Nest</label></br>
+<label><input type="checkbox" name="albums" class="albums" value="KG"> K.G.</label></br>
 <label><input type="checkbox" name="albums" class="albums" value="LW"> L.W.</label></br>
 </p>
 
@@ -398,22 +398,22 @@ var items = [
 	{id: 'iddlife', name: "Oddlife", album: 'KG'},
 	{id: 'honey', name: "Honey", album: 'KG'},
 	{id: 'thwof', name: "The Hungry Wolf Of Fate", album: 'KG'},
-	{id: 'inntw', name: "If Not Now Then When?", album: 'KG'},
-	{id: 'one', name: "O.N.E.", album: 'KG'},
-	{id: 'pleura', name: "Pleura", album: 'KG'},
-	{id: 'supreme', name: "Supreme Ascendancy", album: 'KG'},
-	{id: 'static', name: "Static Electricity", album: 'KG'},
-	{id: 'ewl', name: "East West Link", album: 'KG'},
-	{id: 'ataraxia', name: "Ataraxia", album: 'KG'},
-	{id: 'see', name: "See Me", album: 'KG'},
-	{id: 'kglw2', name: "K.G.L.W (Outro)", album: 'KG'},
+	{id: 'inntw', name: "If Not Now Then When?", album: 'LW'},
+	{id: 'one', name: "O.N.E.", album: 'LW'},
+	{id: 'pleura', name: "Pleura", album: 'LW'},
+	{id: 'supreme', name: "Supreme Ascendancy", album: 'LW'},
+	{id: 'static', name: "Static Electricity", album: 'LW'},
+	{id: 'ewl', name: "East West Link", album: 'LW'},
+	{id: 'ataraxia', name: "Ataraxia", album: 'LW'},
+	{id: 'see', name: "See Me", album: 'LW'},
+	{id: 'kglw2', name: "K.G.L.W (Outro)", album: 'LW'},
 ];
 
 var myPicker = new picker.Picker({
     items: items,
     defaultSettings: {
 		maxBatchSize: 2,
-		albums: ['12BarBruise', 'FloatAlong', 'Oddments', 'MindFuzz', 'Quarters', 'PMDB', 'Nonagon', 'FMB', 'MotU', 'SoBE', 'Poly', 'Gumboot', 'FFF', 'ITRN','KG','LW']
+		albums: ['12BarBruise', 'FloatAlong', 'Oddments', 'MindFuzz', 'Quarters', 'PMDB', 'Nonagon', 'FMB', 'MotU', 'SoBE', 'Poly', 'Gumboot', 'FFF', 'ITRN', 'KG', 'LW']
     },
 	shouldIncludeItem: function(item, settings) {
         // Include only if:
